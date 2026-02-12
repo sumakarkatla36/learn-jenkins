@@ -24,7 +24,7 @@ pipeline {
                 echo 'Deploying....'
                  sh """
                   echo "Here I wrote Shell Script"
-                  enco "$GREETING"
+                  echo "$GREETING"
                  """
             }
         }
